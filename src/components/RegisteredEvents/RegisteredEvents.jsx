@@ -16,7 +16,7 @@ function RegisteredEvents({ userId = '' }) {
     try {
       console.log('Fetching registered events');
       const token = localStorage.getItem('token');
-      const response = await fetch(`http://localhost:5500/api/auth/registered-events/${userId}`, {
+      const response = await fetch(`https://mini-event-platform-fission.onrender.com/api/auth/registered-events/${userId}`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

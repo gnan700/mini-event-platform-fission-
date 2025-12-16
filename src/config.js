@@ -1,1 +1,1 @@
-export const api_uri= "http://localhost:5500";
+export const api_uri= "https://mini-event-platform-fission.onrender.com/";
